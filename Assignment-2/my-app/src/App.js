@@ -11,7 +11,7 @@ const employee = {
 
 function App() {
   return (
-    <div>
+    <>
     <div className="main">
       <img src={employee.profileImg} className="picture" alt="" />
       <h1 className="name">{employee.name}</h1>
@@ -25,7 +25,7 @@ function App() {
       <p className="value">{employee.age}</p>
     </div>
 
-    </div>
+    </>
   );
 }
 
